@@ -3,7 +3,6 @@ kind: Job
 metadata:
   name: sync
   argocd.argoproj.io/hook: Sync
-  argocd.argoproj.io/hook-delete-policy: BeforeHookCreation
 spec:
   template:
     spec:
